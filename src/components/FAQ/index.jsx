@@ -3,13 +3,14 @@ import { useState } from "react";
 
 function ItemFaq(props) {
   const [show, setShow] = useState(false);
+
   return (
     <>
       <div className={styles.containerFaq}>
         <section>
           <h2>{props.titleFaq}</h2>
           <button onClick={() => setShow(!show)}>
-            <i className="fa-solid fa-plus"></i>
+            <i className="fa fa-chevron-down"></i>
           </button>
         </section>
         {show && <p className={styles.desc}>{props.responseFaq}</p>}

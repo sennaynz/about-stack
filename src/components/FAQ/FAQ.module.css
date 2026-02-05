@@ -21,13 +21,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #060E10;
+    background: none;
     border: none;
-    border-radius: 50%;
-    color: white;
     width: 35px;
     height: 35px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .containerFaq .desc {
