@@ -13,8 +13,8 @@
 
 .containerFaq section h2 {
     font-size: 20px;
-    font-weight: 800;
     color: #060E10;
+    max-width: 80%;
 }
 
 .containerFaq section button {
@@ -34,10 +34,4 @@
     color: #404040;
     font-size: 18px;
     line-height: 1.6;
-}
-
-@media (max-width: 740px) {
-    .containerFaq section h2 {
-        padding-right: 50px;
-    }
 }
