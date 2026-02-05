@@ -1,4 +1,5 @@
 import { useState } from "react";
+import FAQ from "./components/FAQ";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
           </p>
           <button className="start-button">Personalize a sua bio</button>
         </div>
+      </div>
+      <div className="faq-container">
+        <h1 className="title">Perguntas frequentes</h1>
+        <FAQ />
       </div>
       <footer>
         <span className="copyright-text">

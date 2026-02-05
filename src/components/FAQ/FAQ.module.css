@@ -1,0 +1,43 @@
+.containerFaq {
+    border-bottom: 1px solid gainsboro;
+    padding: 30px 0;
+}
+
+.containerFaq section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    gap: 30px;
+}
+
+.containerFaq section h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #060E10;
+}
+
+.containerFaq section button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #060E10;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.containerFaq .desc {
+    color: #404040;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@media (max-width: 740px) {
+    .containerFaq section h2 {
+        padding-right: 50px;
+    }
+}
