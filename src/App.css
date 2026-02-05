@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #060E10;
     padding: 150px 30px;
 }
 
@@ -18,7 +19,7 @@
     font-size: 50px;
     font-weight: 800;
     text-align: center;
-    color: #060E10;
+    color: #F2F2F2;
 }
 
 .home-container .details-container .desc {
@@ -30,7 +31,7 @@
 }
 
 .home-container .details-container .start-button {
-    background-color: #060E10;
+    background-color: #18262b;
     border-radius: 12px;
     font-size: 20px;
     font-weight: 800;
@@ -42,13 +43,13 @@
 
 .faq-container {
     padding: 150px 30px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     width: 100%;
 }
 
 .faq-container .title {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 800;
     color: #060E10;
 }
@@ -58,14 +59,14 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #060E10;
-    padding: 60px 30px;
-    color: #F2F2F2;
+    padding: 30px;
 }
 
 footer .copyright-text {
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 600;
     text-align: center;
+    color: #F2F2F2;
 }
 
 @media (max-width: 940px) {

@@ -1,20 +1,23 @@
 .containerFaq {
+    display: flex;
+    flex-direction: column;
     border-bottom: 1px solid gainsboro;
     padding: 30px 0;
+    gap: 15px;
 }
 
 .containerFaq section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 0;
     gap: 30px;
 }
 
 .containerFaq section h2 {
-    font-size: 20px;
+    font-size: 15px;
     color: #060E10;
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .containerFaq section button {
@@ -30,6 +33,6 @@
 
 .containerFaq .desc {
     color: #404040;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.6;
 }
