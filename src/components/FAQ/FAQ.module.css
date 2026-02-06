@@ -1,38 +1,36 @@
 .containerFaq {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
     padding: 30px 0;
-    gap: 15px;
+    width: 100%;
+    gap: 30px;
 }
 
 .containerFaq section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
-    gap: 30px;
+    width: 100%;
 }
 
 .containerFaq section h2 {
-    font-size: 15px;
-    color: #060E10;
-    max-width: 90%;
+    line-height: 1.6;
+    font-size: 16px;
+    color: black;
 }
 
 .containerFaq section button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: none;
-    border: none;
-    width: 35px;
-    height: 35px;
     font-size: 15px;
+    color: black;
+    border: none;
 }
 
 .containerFaq .desc {
-    color: #404040;
-    font-size: 15px;
     line-height: 1.6;
+    color: #878A8C;
+    font-size: 15px;
 }
