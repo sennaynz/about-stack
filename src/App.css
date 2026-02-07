@@ -33,6 +33,12 @@ header .links-container .link:hover {
     transition: 0.5s;
 }
 
+header .links-container i {
+    display: none;
+    color: white;
+    font-size: 18px;
+}
+
 .home-container {
     display: flex;
     align-items: center;
@@ -50,7 +56,7 @@ header .links-container .link:hover {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    max-width: 600px;
+    max-width: 50%;
     margin: 0 auto;
     color: white;
     bottom: -45%;
@@ -86,6 +92,66 @@ header .links-container .link:hover {
 
 .home-container .details-container .start-button:hover {
     border: 1px solid white;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 60px;
+}
+
+.about-container .details-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.about-container .details-container .title {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.about-container .details-container .desc {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #18262b;
+    text-align: center;
+}
+
+.about-container .more-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+    grid-gap: 30px;
+}
+
+.about-container .more-container .box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid gainsboro;
+    padding: 30px;
+    width: 100%;
+    gap: 15px;
+}
+
+.about-container .more-container .title {
+    font-size: 25px;
+}
+
+.about-container .more-container .desc {
+    font-size: 18px;
 }
 
 .faq-container {
@@ -125,4 +191,87 @@ footer .footer-container .copyright-text {
     font-weight: 800;
     font-size: 16px;
     color: white;
+}
+
+@media (max-width: 1040px) {
+    .home-container .details-container {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 940px) {
+    header .links-container .link {
+        display: none;
+    }
+
+    header .links-container i {
+        display: flex;
+    }
+}
+
+@media (max-width: 840px) {
+    .home-container .details-container .title {
+        font-size: 40px;
+    }
+
+    .about-container {
+        padding: 0;
+    }
+
+    .about-container .details-container {
+        max-width: 80%;
+    }
+
+    .about-container .more-container {
+        padding: 0 15px;
+    }
+
+    .faq-container {
+        padding: 150px 30px;
+    }
+}
+
+@media (max-width: 740px) {
+    header {
+        padding: 30px;
+    }
+
+    .home-container .details-container .title {
+        font-size: 30px;
+    }
+
+    .about-container .more-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .faq-container {
+        padding: 150px 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    .home-container .details-container .desc {
+        padding: 0;
+    }
+}
+
+@media (max-width: 490px) {
+    .home-container .details-container {
+        padding: 0;
+        max-width: 80%;
+    }
+
+    .about-container .details-container .title,
+    .home-container .details-container .title {
+        font-size: 25px;
+    }
+
+    .home-container .details-container .start-button {
+        padding: 0 30px;
+    }
 }

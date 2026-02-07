@@ -20,6 +20,7 @@
     line-height: 1.6;
     font-size: 16px;
     color: black;
+    max-width: 80%;
 }
 
 .containerFaq section button {
